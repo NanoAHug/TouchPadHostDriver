@@ -1,0 +1,16 @@
+"C:\Dev\CLion\CLion 2024.1.6\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Dev/CLion/CLion 2024.1.6/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Project\TouchController\HostDriver -B D:\Project\TouchController\HostDriver\cmake-build-debug
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Environment/Cpp/toolset/mingw64/bin/cc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Environment/Cpp/toolset/mingw64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (3.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Project/TouchController/HostDriver/cmake-build-debug
