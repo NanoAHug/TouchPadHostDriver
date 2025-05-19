@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <iostream>
 #include <string>
-
+#include "mouse.h"
 #define PORT_NAME "COM4"    // 替换为你的 Pico 虚拟串口名（如 COM3）
 #define BAUD_RATE CBR_115200
 #define BUFFER_SIZE 256
@@ -11,11 +11,14 @@ void processLine(const std::string& line) {
         int x, y;
         if (std::sscanf(line.c_str(), "[Touch]/x:%d/y:%d", &x, &y) == 2) {
             std::cout << "Parsed x: " << x << ", y: " << y << std::endl;
+            MouseHandler(x,y);
         } else {
             std::cout << "Failed to parse line: " << line << std::endl;
         }
     }
 }
+
+
 
 
 int main() {

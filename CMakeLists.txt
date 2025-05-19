@@ -3,4 +3,9 @@ project(HostDriver)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(HostDriver main.cpp)
+add_executable(HostDriver
+        main.cpp
+        mouse.cpp
+        mouse.h
+#        test.cpp
+)
